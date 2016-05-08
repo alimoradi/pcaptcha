@@ -1,0 +1,29 @@
+{
+    "name": "alimoradi/pcaptcha",
+    "description": "A google recaptcha plugin for CakePHP 3",
+	"type": "cakephp-plugin",
+  	"keywords": ["cakephp", "cakephp3", "captcha", "google", "captcha"],
+  	"homepage": "https://github.com/davidyell/CakePHP3-Proffer",
+  	"license": "GNU",
+  	"authors": [
+	  {
+		"name": "Ali Moradi",
+		"email": "developer.n.c@gmail.com"
+	  }
+	],
+	"require": {
+		"php": ">=5.4.16",
+		"cakephp/cakephp": "~3.0"
+	},
+  	"require-dev": {
+	  "phpunit/phpunit": "*"
+	},
+	"autoload": {
+	  "psr-4": {
+		"Pcaptcha\\": "src"
+	  }
+	},
+	"extra": {
+		"installer-name": "Pcaptcha"	
+	}
+}
